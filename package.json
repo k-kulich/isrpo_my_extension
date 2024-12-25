@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "myfirstextension",
   "displayName": "MyFirstExtension",
   "description": "",
@@ -14,10 +13,6 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "myfirstextension.helloWorld",
-        "title": "Hello World"
-      },
       {
         "command": "myfirstextension.googleline",
         "title": "Google Line"
